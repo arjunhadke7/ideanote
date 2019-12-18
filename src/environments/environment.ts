@@ -3,8 +3,19 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyD1K1YWntHZe1BgiC4iGCHs0paeT31ahDc',
+    authDomain: 'ideanotex.firebaseapp.com',
+    databaseURL: 'https://ideanotex.firebaseio.com',
+    projectId: 'ideanotex',
+    storageBucket: 'ideanotex.appspot.com',
+    messagingSenderId: '89067973178',
+    appId: '1:89067973178:web:74b14b2576d44719a16303',
+    measurementId: 'G-J9PQGH5546'
+  }
 };
+
 
 /*
  * For easier debugging in development mode, you can import the following file
